@@ -1,0 +1,42 @@
+.Navbar {
+    background-color: rgb(237, 0, 0);
+    .nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 80vw;
+        margin: auto;
+
+        .nav-items {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            .home-icon {
+                height: 100%;
+            }
+            .home-icon:hover {
+                background-color: rgb(24, 77, 59);
+            }
+            a {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                padding: 1rem;
+            }
+            .nav-link:hover {
+                background-color: rgb(24, 77, 59);
+            }
+        }
+
+        .nav-right {
+            button {
+                padding: 1rem;
+                border: none;
+                height: 100%;
+            }
+            button:hover {
+                background-color: rgb(24, 77, 59);
+                color: white;
+            }
+        }
+    }
+}
