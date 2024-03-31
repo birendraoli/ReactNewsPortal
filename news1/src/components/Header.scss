@@ -1,0 +1,19 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    padding: 2rem 0;
+    .logo {
+        width: 25%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .header-ad {
+        width: 70%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+}

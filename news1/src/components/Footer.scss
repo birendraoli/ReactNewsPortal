@@ -1,0 +1,16 @@
+.footer {
+    background-color: var(--lightGrey);
+    padding: 0.7rem 0;
+    .footer-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80vw;
+        margin: auto;
+        .f-1, .f-2, .f-3, .f-4, .f-5, .f-6 {
+            text-align: center;
+            font-size: 0.9rem;
+            padding: 0.3rem;
+        }
+    }
+}
