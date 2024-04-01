@@ -9,8 +9,9 @@ import Trending from './components/home-parts/Trending';
 import Economy from './components/home-parts/Economy';
 import Science from './components/home-parts/Science';
 import Blog from './components/home-parts/Blog';
-import Politics from './components/home-parts/Politics';
+import Politics from './components/home-parts/PoliticsSports';
 import Feature from './components/home-parts/Feature';
+import EntertainRochak from './components/home-parts/EntertainRochak';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Blog />
         <Politics />
         <Feature />
+        <EntertainRochak />
         <Footer />
       </Brou>
     </>
