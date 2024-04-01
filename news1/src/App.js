@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import {  BrowserRouter as Brou, Routes, Route } from  'react-router-dom';
 import BannerNews from './components/home/BannerNews';
 import News from './components/home-parts/News';
+import Trending from './components/home-parts/Trending';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         </Routes>
         <BannerNews />
         <News />
+        <Trending />
         <Footer />
       </Brou>
     </>
