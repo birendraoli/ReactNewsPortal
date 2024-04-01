@@ -6,10 +6,10 @@ const News = () => {
     return (
         <div className='news-wrapper'>
             <div className="news">
-            <div className="title-head">
-                <h1>News</h1>
-                <button>All</button>
-            </div>
+                <div className="title-head">
+                    <h1>News</h1>
+                    <button>All</button>
+                </div>
                 <div className='f-news'>
                     <div className="feature-img">
                         <img src={img1} alt="" />

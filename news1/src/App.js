@@ -6,6 +6,8 @@ import {  BrowserRouter as Brou, Routes, Route } from  'react-router-dom';
 import BannerNews from './components/home/BannerNews';
 import News from './components/home-parts/News';
 import Trending from './components/home-parts/Trending';
+import Economy from './components/home-parts/Economy';
+import Science from './components/home-parts/Science';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <BannerNews />
         <News />
         <Trending />
+        <Economy />
+        <Science />
         <Footer />
       </Brou>
     </>
