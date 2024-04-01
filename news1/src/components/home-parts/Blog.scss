@@ -1,0 +1,24 @@
+.blog-wrapper {
+    width: 80vw;
+    margin: auto;
+    .title-head {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--lightGrey);
+        button {
+            padding: 0 1rem;
+        }
+    }
+    .news-content {
+        display: flex;
+        justify-content: space-between;
+        .card {
+            width: 25%;
+            img {
+                padding: 2rem;
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+    }
+}
