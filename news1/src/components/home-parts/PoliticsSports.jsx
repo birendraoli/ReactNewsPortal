@@ -1,6 +1,6 @@
 import React from 'react'
-import './PoliticsSports.scss'
-import img1 from './news-img1.jpg'
+import '../css/PoliticsSports.scss'
+import img1 from '../images/news-img1.jpg'
 
 const Politics = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from './news-img1.jpg'
-import './News.scss'
+import img1 from '../images/news-img1.jpg'
+import '../css/News.scss'
 
 const News = () => {
     return (

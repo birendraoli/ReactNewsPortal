@@ -1,6 +1,6 @@
 import React from 'react'
-import './Feature.scss'
-import img1 from './news-img1.jpg'
+import '../css/Feature.scss'
+import img1 from '../images/news-img1.jpg'
 
 const Feature = () => {
     return (

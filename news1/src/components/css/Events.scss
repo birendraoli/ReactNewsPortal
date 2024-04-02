@@ -1,0 +1,23 @@
+.event-wrapper {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .contentarea {
+        display: flex;
+        gap: 2rem;
+        .card {
+            position: relative;
+            width: 25%;
+            overflow: hidden;
+            img {}
+            h3 {
+                position: absolute;
+                bottom: 2rem;
+                color: var(--white);
+                padding: 2rem;
+            }
+        }
+    }
+}

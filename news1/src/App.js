@@ -12,6 +12,10 @@ import Blog from './components/home-parts/Blog';
 import Politics from './components/home-parts/PoliticsSports';
 import Feature from './components/home-parts/Feature';
 import EntertainRochak from './components/home-parts/EntertainRochak';
+import EduTourism from './components/home-parts/EduTourism';
+import Events from './components/home-parts/Events';
+import Health from './components/home-parts/Health';
+import Video from './components/home-parts/Video';
 
 function App() {
   return (
@@ -31,6 +35,10 @@ function App() {
         <Politics />
         <Feature />
         <EntertainRochak />
+        <EduTourism />
+        <Events />
+        <Health />
+        <Video />
         <Footer />
       </Brou>
     </>

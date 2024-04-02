@@ -1,6 +1,6 @@
 import React from 'react'
-import './EntertainRochak.scss'
-import img1 from './news-img1.jpg'
+import '../css/EntertainRochak.scss'
+import img1 from '../images/news-img1.jpg'
 
 const EntertainRochak = () => {
     return (

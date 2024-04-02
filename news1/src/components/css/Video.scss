@@ -1,0 +1,17 @@
+.video-wrapper {
+    background-color: var(--black);
+    .title-head {
+        width: 80vw;
+        margin: auto;
+    }
+    .contentarea {
+        display: flex;
+        gap: 1rem;
+        .img {
+            img {
+                width: 100%;
+                padding: 1rem;
+            }
+        }
+    }
+}

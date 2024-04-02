@@ -1,6 +1,6 @@
 import React from 'react'
-import './Science.scss'
-import img1 from './news-img1.jpg'
+import '../css/Science.scss'
+import img1 from '../images/news-img1.jpg'
 
 const Science = () => {
     return (
