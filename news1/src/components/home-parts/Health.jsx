@@ -1,6 +1,10 @@
 import React from 'react'
 import '../css/Health.scss'
-import img1 from '../images/news-img1.jpg'
+import hl1 from '../images/hl1.png'
+import hl2 from '../images/hl2.jpg'
+import hl3 from '../images/hl3.jpg'
+import hl4 from '../images/hl4.jpg'
+import hl5 from '../images/hl5.jpg'
 
 const Health = () => {
     return (
@@ -12,29 +16,29 @@ const Health = () => {
             <div className="contentarea">
                 <div className="f-news">
                     <div className="feature-img">
-                        <img src={img1} alt="" />
+                        <img src={hl1} alt="" />
                     </div>
                     <div className="details">
-                        <h2>रुसी सेनामा कार्यरत नेपालीको जीवन रक्षाको माग गर्दै प्रदर्शन गर्नेहरु पक्राउ</h2>
-                        <p>१९ चैत, काठमाडौं । रुसी सेनामा कार्यरत नेपालीको जीवन रक्षाको माग गर्दै सिंहदरबार अगाडि प्रदर्शन गर्नेहरुलाई प्रहरीले नियन्त्रणमा लिएको छ । रुसी सेनामा रहेका नागरिकको जीवन रक्षाको लागि सचेतना...</p>
+                        <h2>रजोनिवृत्तिपछि यौनरुचि घट्छ ? यस्ता छन् ५ भ्रम</h2>
+                        <p>जब महिलामा नियमित हुने महिनावारी एउटा उमेरमा पुगेपछि रोकिन्छ, त्यसलाई रजोनिवृत्ति अर्थात् ‘मेनोपज’ भनिन्छ । खासगरी महिलाको उमेर ४५ वा ५० वर्ष पार गरेपछि उनीहरुको महिनावारी सुक्छ ।...</p>
                     </div>
                 </div>
                 <div className="more-news">
                     <div className="col">
-                        <img src={img1} alt="" />
-                        <h2>रुसी सेनामा कार्यरत नेपालीको जीवन रक्षाको माग गर्दै प्रदर्शन गर्नेहरु पक्राउ</h2>
+                        <img src={hl2} alt="" />
+                        <h2>५ उपाय, जसले बाँझोपनको समस्या समाधानमा मद्दत गर्छ</h2>
                     </div>
                     <div className="col">
-                        <img src={img1} alt="" />
-                        <h2>रुसी सेनामा कार्यरत नेपालीको जीवन रक्षाको माग गर्दै प्रदर्शन गर्नेहरु पक्राउ</h2>
+                        <img src={hl3} alt="" />
+                        <h2>गर्भावस्थामा गरिने फिटल इकोकार्डियोग्राफी के हो ?</h2>
                     </div>
                     <div className="col">
-                        <img src={img1} alt="" />
-                        <h2>रुसी सेनामा कार्यरत नेपालीको जीवन रक्षाको माग गर्दै प्रदर्शन गर्नेहरु पक्राउ</h2>
+                        <img src={hl4} alt="" />
+                        <h2>चाहिनेभन्दा बढी सोच्नुहुन्छ ? यस्ता स्वास्थ्य समस्या निम्तिन सक्छन्</h2>
                     </div>
                     <div className="col">
-                        <img src={img1} alt="" />
-                        <h2>रुसी सेनामा कार्यरत नेपालीको जीवन रक्षाको माग गर्दै प्रदर्शन गर्नेहरु पक्राउ</h2>
+                        <img src={hl5} alt="" />
+                        <h2>१२ टिप्स, जसले निद्रालाई सहज पार्छ</h2>
                     </div>
                 </div>
             </div>

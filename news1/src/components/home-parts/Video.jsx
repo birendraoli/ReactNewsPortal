@@ -1,6 +1,9 @@
 import React from 'react'
 import '../css/Video.scss'
-import img1 from '../images/news-img1.jpg'
+import tv1 from '../images/tv1.jpeg'
+import tv2 from '../images/tv2.jpg'
+import tv3 from '../images/tv3.jpeg'
+import tv4 from '../images/tv4.jpg'
 
 const Video = () => {
     return (
@@ -11,16 +14,16 @@ const Video = () => {
             </div>
             <div className="contentarea">
                 <div className="img">
-                    <img src={img1} alt="" />
+                    <img src={tv1} alt="" />
                 </div>
                 <div className="img">
-                    <img src={img1} alt="" />
+                    <img src={tv2} alt="" />
                 </div>
                 <div className="img">
-                    <img src={img1} alt="" />
+                    <img src={tv3} alt="" />
                 </div>
                 <div className="img">
-                    <img src={img1} alt="" />
+                    <img src={tv4} alt="" />
                 </div>
             </div>
         </div>

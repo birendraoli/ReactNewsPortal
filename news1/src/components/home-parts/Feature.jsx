@@ -1,6 +1,9 @@
 import React from 'react'
 import '../css/Feature.scss'
-import img1 from '../images/news-img1.jpg'
+import feature1 from '../images/feature1.jpg'
+import feature2 from '../images/feature2.jpg'
+import feature3 from '../images/feature3.jpg'
+import feature4 from '../images/feature4.jpg'
 
 const Feature = () => {
     return (
@@ -12,20 +15,20 @@ const Feature = () => {
                 </div>
                 <div className="contentarea">
                     <div className="card">
-                        <img src={img1} alt="" />
-                        <h2>रुसी सेनामा कार्यरत नेपालीको जीवन रक्षाको माग गर्दै प्रदर्शन गर्नेहरु पक्राउ</h2>
+                        <img src={feature1} alt="" />
+                        <h2>कोरियोग्राफर स्मृति तिमिल्सिना, जो हिरोइन बन्न काठमाडौँ आएकी थिइन्</h2>
                     </div>
                     <div className="card">
-                        <img src={img1} alt="" />
-                        <h2>रुसी सेनामा कार्यरत नेपालीको जीवन रक्षाको माग गर्दै प्रदर्शन गर्नेहरु पक्राउ</h2>
+                        <img src={feature2} alt="" />
+                        <h2>२५ वर्षपछि अम्बिकाको जीवनमा फर्किएको खुसी</h2>
                     </div>
                     <div className="card">
-                        <img src={img1} alt="" />
-                        <h2>रुसी सेनामा कार्यरत नेपालीको जीवन रक्षाको माग गर्दै प्रदर्शन गर्नेहरु पक्राउ</h2>
+                        <img src={feature3} alt="" />
+                        <h2>स्वास्थ्य-सेवाको दुरावस्था देखाउने हुम्लाकी रूप्सी सुनार</h2>
                     </div>
                     <div className="card">
-                        <img src={img1} alt="" />
-                        <h2>रुसी सेनामा कार्यरत नेपालीको जीवन रक्षाको माग गर्दै प्रदर्शन गर्नेहरु पक्राउ</h2>
+                        <img src={feature4} alt="" />
+                        <h2>सामाजिक सञ्जालको थ्रेट कसरी सामना गर्छिन् रश्मिला प्रजापति?</h2>
                     </div>
                 </div>
             </div>
