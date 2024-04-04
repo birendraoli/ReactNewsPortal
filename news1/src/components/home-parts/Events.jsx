@@ -9,8 +9,8 @@ const Events = () => {
     return (
         <div className='event-wrapper'>
             <div className="title-head">
-                <h1>Ghatana</h1>
-                <button>All</button>
+                <h1>घटना</h1>
+                <button>सबै </button>
             </div>
             <div className="contentarea">
                 <div className='card'>

@@ -12,8 +12,8 @@ const EntertainRochak = () => {
         <div className='entertain-rochak'>
             <div className="entertain-wrapper">
                 <div className="title-head">
-                    <h1>Entertainment</h1>
-                    <button>All</button>
+                    <h1>मनोरंजन</h1>
+                    <button>सबै</button>
                 </div>
                 <div className="contentarea">
                     <div className="f-news">
@@ -34,8 +34,8 @@ const EntertainRochak = () => {
             </div>
             <div className="rochak-wrapper">
                 <div className="title-head">
-                    <h1>Rochak</h1>
-                    <button>All</button>
+                    <h1>रोचक</h1>
+                    <button>सबै</button>
                 </div>
                 <div className="contentarea">
                 <div className="f-news">

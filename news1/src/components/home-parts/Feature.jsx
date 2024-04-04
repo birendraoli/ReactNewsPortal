@@ -10,8 +10,8 @@ const Feature = () => {
         <div className='feature-wrapper'>
             <div className="feature-content">
                 <div className="title-head">
-                    <h1>Feature</h1>
-                    <button>All</button>
+                    <h1>फिचर</h1>
+                    <button>सबै </button>
                 </div>
                 <div className="contentarea">
                     <div className="card">

@@ -10,8 +10,8 @@ const Economy = () => {
     return (
         <div className='economy-wrapper'>
             <div className="title-head">
-                <h1>Aarthik</h1>
-                <button>All</button>
+                <h1>अर्थ/वाणिज्य</h1>
+                <button>सबै </button>
             </div>
             <div className="news-content">
                 <div className="f-news">

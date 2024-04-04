@@ -16,8 +16,8 @@ const Science = () => {
         <div className='science-latest'>
             <div className='science-news'>
                 <div className='title-head'>
-                    <h1>Science</h1>
-                    <button>All</button>
+                    <h1>बिज्ञान/प्रविधि</h1>
+                    <button>सबै </button>
                 </div>
                 <div className='news-content'>
                     <div className='more-news'>
@@ -57,7 +57,7 @@ const Science = () => {
             </div>
             <div className='latest-news'>
                 <div className="title-head">
-                    <h1>Latest Update</h1>
+                    <h1>ताजा अपडेट</h1>
                 </div>
                 <div className="news-content">
                     <div className="col">

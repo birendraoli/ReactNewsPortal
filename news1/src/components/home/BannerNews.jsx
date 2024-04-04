@@ -3,6 +3,7 @@ import './BannerNews.scss'
 import { FcBusinesswoman } from "react-icons/fc";
 import { IoIosTimer } from "react-icons/io";
 import img1 from './img1.jpg'
+import imgg2 from '../images/imgg2.jpg'
 
 const BannerNews = () => {
     return (
@@ -25,7 +26,7 @@ const BannerNews = () => {
                     <p className="timeupdate"> <IoIosTimer /> 5 minute ago</p>
                 </div>
                 <div className='banner-img'>
-                    <img src={img1} alt="" />
+                    <img src={imgg2} alt="" />
                 </div>
                 <div className='news-info'>
                     <p>चैत ३० गतेदेखि प्रदर्शन तयारीमा रहेको फिल्म ‘डिग्री माइला : एमए थर्ड क्लास’ले गफाडी प्रतियोगिता आयोजना गरेको छ । प्रतिस्पर्धामा सहभागि हुन चाहनेले डिग्री माइला पात्र बनेर, आफ्नै बारेमा गफ दिएर भिडियो पठाउनुपर्नेछ ।</p>

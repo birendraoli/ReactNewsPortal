@@ -13,8 +13,8 @@ const EduTourism = () => {
         <div className='edu-tourism'>
             <div className="edu-wrapper">
                 <div className="title-head">
-                    <h1>Education</h1>
-                    <button>All</button>
+                    <h1>शिक्षा</h1>
+                    <button>सबै</button>
                 </div>
                 <div className="contentarea">
                     <div className="col">
@@ -37,8 +37,8 @@ const EduTourism = () => {
             </div>
             <div className="tourism-wrapper">
                 <div className="title-head">
-                    <h1>Tourism</h1>
-                    <button>All</button>
+                    <h1>पर्यटन</h1>
+                    <button>सबै </button>
                 </div>
                 <div className="contentarea">
                     <div className="f-news">

@@ -10,8 +10,8 @@ const Health = () => {
     return (
         <div className='health-wrapper'>
             <div className="title-head">
-                <h1>Health/Lifestyle</h1>
-                <button>All</button>
+                <h1>स्व्यास्थ्य/जीवनशैली</h1>
+                <button>सबै </button>
             </div>
             <div className="contentarea">
                 <div className="f-news">

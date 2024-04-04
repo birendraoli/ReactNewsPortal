@@ -17,8 +17,8 @@ const News = () => {
         <div className='news-wrapper'>
             <div className="news">
                 <div className="title-head">
-                    <h1>News</h1>
-                    <button>All</button>
+                    <h1>समाचार</h1>
+                    <button>सबै</button>
                 </div>
                 <div className='f-news'>
                     <div className="feature-img">

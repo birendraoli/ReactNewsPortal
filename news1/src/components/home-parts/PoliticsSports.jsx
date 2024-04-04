@@ -16,8 +16,8 @@ const Politics = () => {
         <div className='politics-sports'>
             <div className="politics">
                 <div className="title-head">
-                    <h1>Politics</h1>
-                    <button>All</button>
+                    <h1>राजनीतिक</h1>
+                    <button>सबै </button>
                 </div>
                 <div className="news-content">
                     <div className='banner-news'>
@@ -48,8 +48,8 @@ const Politics = () => {
             </div>
             <div className="sports">
                 <div className="title-head">
-                    <h1>Sports</h1>
-                    <button>All</button>
+                    <h1>खेलकुद</h1>
+                    <button>सबै </button>
                 </div>
                 <div className="news-content">
                     <div className='banner-news'>

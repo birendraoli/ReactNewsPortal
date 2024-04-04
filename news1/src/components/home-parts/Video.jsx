@@ -9,8 +9,8 @@ const Video = () => {
     return (
         <div className='video-wrapper'>
             <div className="title-head">
-                <h1>Video/TV</h1>
-                <button>All</button>
+                <h1>भिडियो</h1>
+                <button>सबै </button>
             </div>
             <div className="contentarea">
                 <div className="img">

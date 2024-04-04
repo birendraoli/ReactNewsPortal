@@ -5,36 +5,68 @@ import { FaHome, FaSearch } from "react-icons/fa";
 const Navbar = () => {
     const navitems = [
         {
-            name: 'Home',
+            name: 'होम',
             link: 'home'
         },
         {
-            name: 'News',
+            name: 'समाचार',
             link: 'news'
         },
         {
-            name: 'Science',
+            name: 'अर्थ/वाणिज्य',
+            link: 'economics'
+        },
+        {
+            name: 'बिज्ञान/प्रविधि',
             link: 'science'
         },
         {
-            name: 'Health',
-            link: 'health'
+            name: 'विचार/ब्लग',
+            link: 'blogs'
         },
         {
-            name: 'Sports',
-            link: 'sports'
-        },
-        {
-            name: 'Other',
+            name: 'अन्य',
             link: 'other',
             drop: [
                 {
-                    name: 'Politics',
+                    name: 'राजनीतिक',
                     link: 'politics'
                 },
                 {
-                    name: 'Arts',
-                    link: 'arts'
+                    name: 'खेलकुद ',
+                    link: 'sports'
+                },
+                {
+                    name: 'फिचर ',
+                    link: 'feature'
+                },
+                {
+                    name: 'मनोरंजन ',
+                    link: 'entertainment'
+                },
+                {
+                    name: 'रोचक ',
+                    link: 'interesting'
+                },
+                {
+                    name: 'शिक्षा ',
+                    link: 'education'
+                },
+                {
+                    name: 'पर्यटन ',
+                    link: 'tourism'
+                },
+                {
+                    name: 'घटना ',
+                    link: 'events'
+                },
+                {
+                    name: 'स्व्यास्थ्य/जीवनशैली ',
+                    link: 'health'
+                },
+                {
+                    name: 'भिडियो ',
+                    link: 'video'
                 }
             ]
         }

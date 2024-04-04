@@ -9,7 +9,7 @@ const Trending = () => {
   return (
     <div className='trending-wrapper'>
         <div className="title-head">
-            <h2>Trending</h2>
+            <h2>लोकप्रिय</h2>
         </div>
         <div className="carousel">
             <div className='card'>

@@ -9,7 +9,7 @@ const Blog = () => {
     return (
         <div className='blog-wrapper'>
             <div className="title-head">
-                <h1>Thought/Blog</h1>
+                <h1>विचार/ब्लग</h1>
                 <button>All</button>
             </div>
             <div className="news-content">
