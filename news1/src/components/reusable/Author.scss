@@ -1,0 +1,13 @@
+.author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    img {
+        border-radius: 50%;
+        height: 2.5rem;
+    }
+    p {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+}

@@ -1,12 +1,14 @@
 .feature-wrapper {
     background-color: var(--black);
     color: var(--white);
+    padding: 4rem 0;
+    margin-top: 4rem;
     .feature-content {
         width: 80vw;
         margin: auto;
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        gap: 2rem;
         .title-head {
             display: flex;
             justify-content: space-between;

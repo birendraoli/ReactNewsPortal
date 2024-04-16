@@ -3,7 +3,16 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
+    padding-top: 4rem;
+    .title-head {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--lightGrey);
+        button {
+            padding: 0 1rem;
+        }
+    }
     .contentarea {
         display: flex;
         gap: 2rem;

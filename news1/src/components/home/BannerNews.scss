@@ -3,6 +3,12 @@
     padding: 1rem;
     text-align: center;
 }
+.auth-time {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-bottom: 3rem;
+}
 .banner-wrapper {
     width: 80vw;
     margin: auto;
@@ -14,38 +20,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        .news-content {
-            display: flex;
-            gap: 3rem;
-            padding-bottom: 3rem;
-            p {
-                display: flex;
-                align-items: center;
-                gap: 0.3rem;
-                font-weight: bold;
-            }
-        }
     }
     .banner-news {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding-bottom: 3rem;
-        .news-content {
-            display: flex;
-            gap: 3rem;
-            padding-bottom: 2rem;
-            p {
-                display: flex;
-                align-items: center;
-                gap: 0.3rem;
-                font-weight: bold;
-            }
-        }
         .banner-img {
-            // width: 80vw;
+            max-height: 80vh;
+            overflow: hidden;
             img {
                 width:  100%;
+                background-size: cover;
             }
         }
         .news-info {

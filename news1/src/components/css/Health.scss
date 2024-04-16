@@ -1,6 +1,18 @@
 .health-wrapper {
     width: 80vw;
     margin: auto;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .title-head {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--lightGrey);
+        button {
+            padding: 0 1rem;
+        }
+    }
     .contentarea {
         display: flex;
         gap: 2rem;

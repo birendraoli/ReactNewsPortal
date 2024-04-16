@@ -4,6 +4,8 @@ import { FcBusinesswoman } from "react-icons/fc";
 import { IoIosTimer } from "react-icons/io";
 import img1 from './img1.jpg'
 import imgg2 from '../images/imgg2.jpg'
+import Author from '../reusable/Author';
+import Timer from '../reusable/Timer';
 
 const BannerNews = () => {
     return (
@@ -12,18 +14,18 @@ const BannerNews = () => {
                 <div className='news-title'>
                     <h2>पेट्रोलमा प्रतिलिटर ४ रुपैयाँ मूल्यवृद्धि</h2>
                 </div>
-                <div className='news-content'>
-                    <p className="author"> <FcBusinesswoman /> bherisanchar</p>
-                    <p className="timeupdate"> <IoIosTimer /> 5 minute ago</p>
+                <div className='auth-time'>
+                    <Author />
+                    <Timer />
                 </div>
             </div>
             <div className="banner-news">
                 <div className='news-title'>
                     <h2>‘डिग्री माइला’द्वारा गफाडी प्रतियोगिता आयोजना</h2>
                 </div>
-                <div className='news-content'>
-                    <p className="author"> <FcBusinesswoman /> bherisanchar</p>
-                    <p className="timeupdate"> <IoIosTimer /> 5 minute ago</p>
+                <div className='auth-time'>
+                    <Author />
+                    <Timer />
                 </div>
                 <div className='banner-img'>
                     <img src={imgg2} alt="" />
@@ -36,9 +38,9 @@ const BannerNews = () => {
                 <div className='news-title'>
                     <h2>‘डिग्री माइला’द्वारा गफाडी प्रतियोगिता आयोजना</h2>
                 </div>
-                <div className='news-content'>
-                    <p className="author"> <FcBusinesswoman /> bherisanchar</p>
-                    <p className="timeupdate"> <IoIosTimer /> 5 minute ago</p>
+                <div className='auth-time'>
+                    <Author />
+                    <Timer />
                 </div>
                 <div className='banner-img'>
                     <img src={img1} alt="" />

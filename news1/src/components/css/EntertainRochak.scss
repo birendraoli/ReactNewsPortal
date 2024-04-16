@@ -11,6 +11,18 @@
     gap: 2rem;
     .entertain-wrapper {
         width: 66.66%;
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        .title-head {
+            display: flex;
+            justify-content: space-between;
+            background-color: var(--lightGrey);
+            button {
+                padding: 0 1rem;
+            }
+        }
         .contentarea {
             display: flex;
             justify-content: space-between;
@@ -35,6 +47,18 @@
     }
     .rochak-wrapper {
         width: 33.33%;
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        .title-head {
+            display: flex;
+            justify-content: space-between;
+            background-color: var(--lightGrey);
+            button {
+                padding: 0 1rem;
+            }
+        }
         .contentarea {
             display: flex;
             flex-direction: column;
