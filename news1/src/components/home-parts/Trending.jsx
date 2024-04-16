@@ -4,12 +4,14 @@ import tr1 from '../images/tr1.jpg'
 import tr2 from '../images/tr2.jpg'
 import tr3 from '../images/tr3.jpg'
 import tr4 from '../images/tr4.jpg'
+import All from '../reusable/All'
 
 const Trending = () => {
   return (
     <div className='trending-wrapper'>
         <div className="title-head">
-            <h2>लोकप्रिय</h2>
+            <h1>लोकप्रिय</h1>
+            <All />
         </div>
         <div className="carousel">
             <div className='card'>

@@ -4,13 +4,14 @@ import thought1 from '../images/thought1.jpg'
 import thought2 from '../images/thought2.jpeg'
 import thought3 from '../images/thought3.jpeg'
 import thought4 from '../images/thought4.jpg'
+import All from '../reusable/All'
 
 const Blog = () => {
     return (
         <div className='blog-wrapper'>
             <div className="title-head">
                 <h1>विचार/ब्लग</h1>
-                <button>All</button>
+                <All />
             </div>
             <div className="news-content">
                 <div className="card">

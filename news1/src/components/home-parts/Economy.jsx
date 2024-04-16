@@ -5,13 +5,14 @@ import artha2 from '../images/artha2.jpeg'
 import artha3 from '../images/artha3.jpg'
 import artha4 from '../images/artha4.jpg'
 import artha5 from '../images/artha5.jpg'
+import All from '../reusable/All'
 
 const Economy = () => {
     return (
         <div className='economy-wrapper'>
             <div className="title-head">
                 <h1>अर्थ/वाणिज्य</h1>
-                <button>सबै </button>
+                <All />
             </div>
             <div className="news-content">
                 <div className="f-news">

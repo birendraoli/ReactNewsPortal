@@ -5,13 +5,14 @@ import hl2 from '../images/hl2.jpg'
 import hl3 from '../images/hl3.jpg'
 import hl4 from '../images/hl4.jpg'
 import hl5 from '../images/hl5.jpg'
+import All from '../reusable/All'
 
 const Health = () => {
     return (
         <div className='health-wrapper'>
             <div className="title-head">
                 <h1>स्व्यास्थ्य/जीवनशैली</h1>
-                <button>सबै </button>
+                <All />
             </div>
             <div className="contentarea">
                 <div className="f-news">

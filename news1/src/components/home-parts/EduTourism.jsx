@@ -7,6 +7,7 @@ import edu4 from '../images/edu4.jpg'
 import tour1 from '../images/tour1.jpg'
 import tour2 from '../images/tour2.jpg'
 import tour3 from '../images/tour3.png'
+import All from '../reusable/All'
 
 const EduTourism = () => {
     return (
@@ -14,7 +15,7 @@ const EduTourism = () => {
             <div className="edu-wrapper">
                 <div className="title-head">
                     <h1>शिक्षा</h1>
-                    <button>सबै</button>
+                    <All />
                 </div>
                 <div className="contentarea">
                     <div className="col">
@@ -38,7 +39,7 @@ const EduTourism = () => {
             <div className="tourism-wrapper">
                 <div className="title-head">
                     <h1>पर्यटन</h1>
-                    <button>सबै </button>
+                    <All />
                 </div>
                 <div className="contentarea">
                     <div className="f-news">

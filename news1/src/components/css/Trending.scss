@@ -5,22 +5,22 @@
     flex-direction: column;
     gap: 2rem;
     padding-top: 4rem;
-    .title-head {
-        width: 100%;
-    }
     .carousel {
         width: 100%;
         display: flex;
+        overflow: hidden;
         gap: 2rem;
         .card {
             width: 25%;
             position: relative;
+            text-align: center;
             img {
+                height: 100%;
                 width: 100%;
             }
             h3 {
                 position: absolute;
-                bottom: 5%;
+                bottom: 2%;
                 padding: 1rem;
                 color: var(--white);
             }

@@ -4,6 +4,7 @@ import feature1 from '../images/feature1.jpg'
 import feature2 from '../images/feature2.jpg'
 import feature3 from '../images/feature3.jpg'
 import feature4 from '../images/feature4.jpg'
+import All from '../reusable/All'
 
 const Feature = () => {
     return (
@@ -11,7 +12,7 @@ const Feature = () => {
             <div className="feature-content">
                 <div className="title-head">
                     <h1>फिचर</h1>
-                    <button>सबै </button>
+                    <All />
                 </div>
                 <div className="contentarea">
                     <div className="card">

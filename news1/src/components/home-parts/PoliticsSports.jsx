@@ -10,6 +10,7 @@ import sport2 from '../images/sport2.jpg'
 import sport3 from '../images/sport3.jpg'
 import sport4 from '../images/sport4.jpg'
 import sport5 from '../images/sport5.jpg'
+import All from '../reusable/All'
 
 const Politics = () => {
     return (
@@ -17,7 +18,7 @@ const Politics = () => {
             <div className="politics">
                 <div className="title-head">
                     <h1>राजनीतिक</h1>
-                    <button>सबै </button>
+                    <All />
                 </div>
                 <div className="news-content">
                     <div className='banner-news'>
@@ -49,7 +50,7 @@ const Politics = () => {
             <div className="sports">
                 <div className="title-head">
                     <h1>खेलकुद</h1>
-                    <button>सबै </button>
+                    <All />
                 </div>
                 <div className="news-content">
                     <div className='banner-news'>

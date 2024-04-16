@@ -4,13 +4,14 @@ import tv1 from '../images/tv1.jpeg'
 import tv2 from '../images/tv2.jpg'
 import tv3 from '../images/tv3.jpeg'
 import tv4 from '../images/tv4.jpg'
+import All from '../reusable/All'
 
 const Video = () => {
     return (
         <div className='video-wrapper'>
             <div className="title-head">
                 <h1>भिडियो</h1>
-                <button>सबै </button>
+                <All/>
             </div>
             <div className="contentarea">
                 <div className="img">

@@ -12,13 +12,14 @@ import img15 from '../images/img15.jpg'
 import ad1 from '../images/ad1.gif'
 import ad2 from '../images/ad2.gif'
 import ad3 from '../images/ad3.gif'
+import All from '../reusable/All'
 const News = () => {
     return (
         <div className='news-wrapper'>
             <div className="news">
                 <div className="title-head">
                     <h1>समाचार</h1>
-                    <button>सबै</button>
+                    <All/>
                 </div>
                 <div className='f-news'>
                     <div className="feature-img">
@@ -30,7 +31,7 @@ const News = () => {
                         </div>
                         <div className="details">
                             <p>बलिउड अभिनेत्री प्रियंका चोपडा यतिबेला भारतमा छिन् ।
-उनी भारत आएपछि होली पाटीमा उपस्थितिदेखि अयोध्यामा राम ललाको दर्शक गर्ने कामसम्म पुरा गरिसकेकी छन् । हालैमात्र उनी आफन्त मन्नारा चोपडाको जन्मदिन पाटीमा पुगेकी थिइन् । प्रियंकाले मन्नाराको परिवारसँग भेटिरहँदा त्यहाँ परिणीति चोपडालाई भने उनले भेटिनन् ।...</p>
+उनी भारत आएपछि होली पाटीमा उपस्थितिदेखि अयोध्यामा राम ललाको दर्शक गर्ने कामसम्म पुरा गरिसकेकी छन् । हालैमात्र उनी आफन्त मन्नारा चोपडाको जन्मदिन पाटीमा पुगेकी थिइन् । ...</p>
                         </div>
                     </div>
                 </div>

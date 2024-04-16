@@ -4,13 +4,14 @@ import evn1 from '../images/evn1.jpg'
 import evn2 from '../images/evn2.jpg'
 import evn3 from '../images/evn3.jpg'
 import evn4 from '../images/evn4.jpg'
+import All from '../reusable/All'
 
 const Events = () => {
     return (
         <div className='event-wrapper'>
             <div className="title-head">
                 <h1>घटना</h1>
-                <button>सबै </button>
+                <All />
             </div>
             <div className="contentarea">
                 <div className='card'>

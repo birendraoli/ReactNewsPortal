@@ -10,6 +10,7 @@ import lu1 from '../images/lu1.jpg'
 import lu2 from '../images/lu2.jpg'
 import lu3 from '../images/lu3.jpg'
 import lu4 from '../images/lu4.jpg'
+import All from '../reusable/All'
 
 const Science = () => {
     return (
@@ -17,7 +18,7 @@ const Science = () => {
             <div className='science-news'>
                 <div className='title-head'>
                     <h1>बिज्ञान/प्रविधि</h1>
-                    <button>सबै </button>
+                    <All />
                 </div>
                 <div className='news-content'>
                     <div className='more-news'>

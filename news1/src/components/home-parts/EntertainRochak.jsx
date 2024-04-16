@@ -6,6 +6,7 @@ import img3 from '../images/img3.jpeg'
 import img4 from '../images/img4.jpg'
 import img5 from '../images/img5.jpg'
 import img6 from '../images/img6.png'
+import All from '../reusable/All'
 
 const EntertainRochak = () => {
     return (
@@ -13,7 +14,7 @@ const EntertainRochak = () => {
             <div className="entertain-wrapper">
                 <div className="title-head">
                     <h1>मनोरंजन</h1>
-                    <button>सबै</button>
+                    <All/>
                 </div>
                 <div className="contentarea">
                     <div className="f-news">
@@ -35,7 +36,7 @@ const EntertainRochak = () => {
             <div className="rochak-wrapper">
                 <div className="title-head">
                     <h1>रोचक</h1>
-                    <button>सबै</button>
+                    <All />
                 </div>
                 <div className="contentarea">
                 <div className="f-news">
