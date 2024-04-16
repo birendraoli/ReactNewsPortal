@@ -1,8 +1,12 @@
 .title-head {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
-}.news-wrapper {
+    align-items: center;
+    padding: 0.3rem 1.5rem;
+    background: linear-gradient(358deg, rgba(255,0,0,1) 22%, rgba(0,0,0,1) 54%, rgba(5,96,52,1) 95%);
+    color: white;
+}
+.news-wrapper {
     width: 80vw;
     margin: auto;
     display: flex;

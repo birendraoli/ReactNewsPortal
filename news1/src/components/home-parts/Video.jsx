@@ -11,7 +11,7 @@ const Video = () => {
         <div className='video-wrapper'>
             <div className="title-head">
                 <h1>भिडियो</h1>
-                <All/>
+                <All />
             </div>
             <div className="contentarea">
                 <div className="img">

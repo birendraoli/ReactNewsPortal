@@ -1,5 +1,6 @@
 .Navbar {
-    background-color: var(--red);
+    // background-color: var(--red);
+    background: linear-gradient(358deg, rgba(255,0,0,1) 22%, rgba(0,0,0,1) 43%, rgba(3,62,34,1) 63%, rgba(156,0,0,1) 90%);
     .nav-wrapper {
         display: flex;
         justify-content: space-between;
@@ -21,6 +22,7 @@
                 color: var(--white);
                 font-weight: bold;
                 padding: 1rem;
+                font-size: 1.2rem;
             }
             .nav-link:hover {
                 background-color: var(--green);
