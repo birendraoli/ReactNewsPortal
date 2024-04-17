@@ -1,12 +1,9 @@
 .entertain-rochak {
-    width: 80vw;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     gap: 2rem;
     .entertain-wrapper {
         width: 66.66%;
-        padding-top: 4rem;
         display: flex;
         flex-direction: column;
         gap: 2rem;
@@ -34,7 +31,6 @@
     }
     .rochak-wrapper {
         width: 33.33%;
-        padding-top: 4rem;
         display: flex;
         flex-direction: column;
         gap: 2rem;

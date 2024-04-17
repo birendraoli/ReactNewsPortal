@@ -1,18 +1,10 @@
 .video-wrapper {
-    background-color: var(--lightGrey);
-    padding: 4rem 0;
-    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    .title-head {
-        width: 80vw;
-        margin: auto;
-    }
+    .title-head {}
     .contentarea {
         display: flex;
-        width: 80vw;
-        margin: auto;
         gap: 2rem;
         .img {
             img {

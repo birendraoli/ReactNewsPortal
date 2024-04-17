@@ -1,8 +1,6 @@
 import React from 'react'
-import './BannerNews.scss'
-import { FcBusinesswoman } from "react-icons/fc";
-import { IoIosTimer } from "react-icons/io";
-import img1 from './img1.jpg'
+import '../css/BannerNews.scss'
+import img1 from '../images/img1.jpg'
 import imgg2 from '../images/imgg2.jpg'
 import Author from '../reusable/Author';
 import Timer from '../reusable/Timer';

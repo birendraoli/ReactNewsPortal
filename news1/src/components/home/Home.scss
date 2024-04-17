@@ -1,0 +1,12 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 80vw;
+    margin: auto;
+}
+.banner-wrapper, .news-wrapper, .economy-wrapper, .science-latest, .politics-sports, .entertain-rochak, .edu-tourism, .event-wrapper, .health-wrapper {
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+}

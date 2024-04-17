@@ -1,11 +1,6 @@
 .feature-wrapper {
-    background-color: var(--lightGrey);
     color: var(--black);
-    padding: 4rem 0;
-    margin-top: 4rem;
     .feature-content {
-        width: 80vw;
-        margin: auto;
         display: flex;
         flex-direction: column;
         gap: 2rem;
