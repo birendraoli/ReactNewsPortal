@@ -21,3 +21,34 @@
         }
     }
 }
+
+@media only screen and (max-width: 999px) {
+    .event-wrapper {
+        .contentarea {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .card {
+                width: 47%;
+                img {
+                }
+                h3 {
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .event-wrapper {
+        .contentarea {
+            flex-direction: column;
+            .card {
+                width: 100%;
+                img {
+                }
+                h3 {
+                }
+            }
+        }
+    }
+}

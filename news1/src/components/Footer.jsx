@@ -26,7 +26,7 @@ const Footer = () => {
                 <p>techchuli@gmail.com</p>
             </div>
             <div className='f-6'>
-                <p>© २००६-२०२३ techchuli.com सर्वाधिकार सुरक्षित</p>
+                <p>© 2021 - 2024 techchuli.com सर्वाधिकार सुरक्षित</p>
             </div>
         </div>
     </div>

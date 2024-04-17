@@ -61,3 +61,83 @@
         }
     }
 }
+
+@media only screen and (max-width: 999px) {
+    .edu-tourism {
+        flex-direction: column;
+        .edu-wrapper {
+            width: 100%;
+            .contentarea {
+                .col {
+                    align-items: center;
+                    justify-content: space-between;
+                    img {
+                        width: 40%;
+                    }
+                }
+            }
+        }
+        .tourism-wrapper {
+            width: 100%;
+            .contentarea {
+                .f-news {
+                    gap: 3rem;
+                    .feature-img {
+                        width: 60%;
+                        img {
+                        }
+                    }
+                    .details {
+                    }
+                }
+                .more-news {
+                    .col {
+                        img {
+                        }
+                        h2 {
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .edu-tourism {
+        flex-direction: column;
+        .edu-wrapper {
+            width: 100%;
+            .contentarea {
+                .col {
+                    img {
+                    }
+                }
+            }
+        }
+        .tourism-wrapper {
+            width: 100%;
+            .contentarea {
+                .f-news {
+                    flex-direction: column;
+                    .feature-img {
+                        width: 100%;
+                        img {
+                        }
+                    }
+                    .details {
+                        width: 100%;
+                    }
+                }
+                .more-news {flex-direction: column;
+                    .col {
+                        width: 100%;
+                        img {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

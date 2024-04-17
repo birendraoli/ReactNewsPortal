@@ -38,10 +38,6 @@ const Science = () => {
                             <img src={sci4} alt="" />
                             <h2>एक्सका सबै प्रिमियम प्रयोगकर्ताले अब ग्रोक एआई चलाउन पाउने</h2>
                         </div>
-                        <div className="col">
-                            <img src={sci5} alt="" />
-                            <h2>न्युज पोर्टल डिजाइनिङ सम्बन्धी अनलाइन तालिम हुँदै, यसरी हुनुहोस् सहभागी</h2>
-                        </div>
                     </div>
                     <div className='banner-news'>
                         <div className="title">

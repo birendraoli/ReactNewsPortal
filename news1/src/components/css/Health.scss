@@ -40,3 +40,72 @@
         }
     }
 }
+
+@media only screen and (max-width: 999px) {
+    .health-wrapper {
+        .contentarea {
+            flex-direction: column;
+            .f-news {
+                flex-direction: column;
+                width: 100%;
+                .feature-img {
+                    img {
+                        width: 100%;
+                    }
+                }
+                .details {
+                    padding: 1rem;
+                    gap: 1rem;
+                }
+            }
+            .more-news {
+                width: 100%;
+                gap: 1rem;
+                .col {
+                    display: flex;
+                    gap: 1rem;
+                    img {
+                        width: 30%;
+                    }
+                    h2 {
+                        font-size: 1.7rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .health-wrapper {
+        .title-head{
+            font-size: 0.9rem;
+        }
+        .contentarea {
+            flex-direction: column;
+            .f-news {
+                width: 100%;
+                flex-direction: column;
+                gap: 2rem;
+                .feature-img {
+                    img {
+                        width: 100%;
+                    }
+                }
+                .details {
+                    padding: 0;
+                    gap: 2rem;
+                }
+            }
+            .more-news {
+                width: 100%;
+                .col {
+                    img {
+                    }
+                    h2 {
+                    }
+                }
+            }
+        }
+    }
+}

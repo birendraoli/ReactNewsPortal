@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.scss'
-import { FaHome, FaSearch } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
+import logo from './logo.png'
 
 const Navbar = () => {
     const navitems = [
@@ -71,22 +72,28 @@ const Navbar = () => {
             ]
         }
     ];
-  return (
-    <div className='Navbar'>
-        <div className='nav-wrapper'>
-            <div className='nav-items'>
-            {/* <a href=""><FaHome className='home-icon'/></a> */}
-            {navitems.map(({name, link, drop}, index) => (
-            <a className='nav-link' href={link}>{name}</a>
-        ))}
-            </div>
-            <div className='nav-right'>
-            {/* <FaSearch className='nav-search'/> */}
-                <button>English</button>
+    return (
+        <div className='Navbar'>
+            <div className='nav-wrapper'>
+                <div className='nav-items'>
+                    {/* <a href=""><FaHome className='home-icon'/></a> */}
+                    {navitems.map(({ name, link, drop }, index) => (
+                        <a className='nav-link' href={link}>{name}</a>
+                    ))}
+                </div>
+                <div className="sticky-logo">
+                    <img src={logo} alt="" />
+                </div>
+                <div className='nav-right'>
+                    {/* <FaSearch className='nav-search'/> */}
+                    <button>English</button>
+                </div>
+                <div className="menu-icon">
+                <GiHamburgerMenu />
+                </div>
             </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Navbar

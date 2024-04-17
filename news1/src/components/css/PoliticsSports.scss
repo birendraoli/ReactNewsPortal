@@ -80,3 +80,87 @@
         }
     }
 }
+
+@media only screen and (max-width: 999px) {
+    .politics-sports {
+        flex-direction: column;
+        .politics {
+            width: 100%;
+            .news-content {
+                .banner-news {
+                    .col {
+                        img {
+                        }
+                    }
+                }
+                .more-news {
+                    .col {
+                        img {
+                        }
+                    }
+                }
+            }
+        }
+        .sports {
+            width: 100%;
+            .news-content {
+                .banner-news {
+                    .col {
+                        img {
+                        }
+                    }
+                }
+                .more-news {
+                    .col {
+                        img {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .politics-sports {
+        flex-direction: column;
+        .politics {
+            width: 100%;
+            .news-content {
+                .banner-news {
+                    flex-direction: column;
+                    .col {
+                        width: 100%;
+                        img {
+                        }
+                    }
+                }
+                .more-news {
+                    .col {
+                        img {
+                        }
+                    }
+                }
+            }
+        }
+        .sports {
+            width: 100%;
+            .news-content {
+                .banner-news {
+                    flex-direction: column;
+                    .col {
+                        width: 100%;
+                        img {
+                        }
+                    }
+                }
+                .more-news {
+                    .col {
+                        img {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

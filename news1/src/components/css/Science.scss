@@ -64,3 +64,84 @@
         }
     }
 }
+
+@media only screen and (max-width: 999px) {
+    .science-latest {flex-direction: column;
+        .science-news {
+            width: 100%;
+            .news-content {
+                .more-news {
+                    width: 50%;
+                    .col {
+                        img {
+                        }
+                        h2 {
+                        }
+                    }
+                }
+                .banner-news {
+                    width: 50%;
+                    .feature-img {
+                        img {
+                        }
+                    }
+                }
+            }
+        }
+        .latest-news {
+            width: 100%;
+            .news-content {
+                .col {
+                    img {
+                    }
+                    h2 {
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .science-latest {
+        display: flex;
+        flex-direction: column;
+        .science-news {
+            width: 100%;
+            .news-content {
+                display: flex;
+                flex-direction: column;
+                .more-news {
+                    width: 100%;
+                    .col {
+                        img {
+                        }
+                        h2 {
+                        }
+                    }
+                }
+                .banner-news {
+                    width: 100%;
+                    text-align: center;
+                    .feature-img {
+                        width: 100%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .latest-news {
+            width: 100%;
+            .news-content {
+                .col {
+                    img {
+                    }
+                    h2 {
+                    }
+                }
+            }
+        }
+    }
+}

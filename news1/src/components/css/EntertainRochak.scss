@@ -58,3 +58,94 @@
         }
     }
 }
+
+@media only screen and (max-width: 999px) {
+    .entertain-rochak {
+        flex-direction: column;
+        .entertain-wrapper {
+            width: 100%;
+            .contentarea {
+                .f-news {
+                    width: 60%;
+                    img {
+                        width: 160%;
+                    }
+                }
+                .more-news {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    .col {
+                        img {
+                        }
+                    }
+                }
+            }
+        }
+        .rochak-wrapper {
+            width: 100%;
+            .contentarea {
+                flex-direction: row;
+                .f-news {
+                    width: 40%;
+                    img {
+                    }
+                }
+                .more-news {
+                    width: 60%;
+                    justify-content: space-around;
+                    .col {
+                        width: 100%;
+                        img {
+                        }
+                        h2  {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .entertain-rochak {
+        flex-direction: column;
+        .entertain-wrapper {
+            width: 100%;
+            .contentarea {
+                flex-direction: column;
+                .f-news {
+                    width: 100%;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .more-news {
+                    width: 100%;
+                    .col {
+                        width: 100%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .rochak-wrapper {
+            width: 100%;
+            .contentarea {
+                .f-news {
+                    img {
+                    }
+                }
+                .more-news {
+                    .col {
+                        img {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
