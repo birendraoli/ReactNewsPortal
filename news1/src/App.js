@@ -6,6 +6,7 @@ import {  BrowserRouter as Brou, Routes, Route } from  'react-router-dom';
 import Home from './components/home/Home';
 import Singlepage from './components/reusable/Singlepage';
 import Notfound from './components/reusable/Notfound';
+import Singlepost from './components/reusable/Singlepost';
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
           <Route path='health' element={<Singlepage />} />
           <Route path='video' element={<Singlepage />} />
           <Route path='*' element={<Notfound />}/>
+          <Route path='home/singlepost' element={<Singlepost />} />
+          <Route path='singlepost' element={<Singlepost />} />
         </Routes>
         <Footer />
       </Brou>

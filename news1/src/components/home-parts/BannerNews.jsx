@@ -4,13 +4,14 @@ import img1 from '../images/img1.jpg'
 import imgg2 from '../images/imgg2.jpg'
 import Author from '../reusable/Author';
 import Timer from '../reusable/Timer';
+import { Link } from 'react-router-dom';
 
 const BannerNews = () => {
     return (
         <div className='banner-wrapper'>
             <div className="title-news">
                 <div className='news-title'>
-                    <h2>पेट्रोलमा प्रतिलिटर ४ रुपैयाँ मूल्यवृद्धि</h2>
+                    <Link to='singlepost'><h2>पेट्रोलमा प्रतिलिटर ४ रुपैयाँ मूल्यवृद्धि</h2></Link>
                 </div>
                 <div className='auth-time'>
                     <Author />

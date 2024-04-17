@@ -1,0 +1,19 @@
+.singlepost {
+    width: 80vw;
+    margin: auto;
+    padding: 2rem;
+    .post-wrapper {
+        width: 66.66%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+    .latest {
+        width: 33.33%;
+    }
+}
