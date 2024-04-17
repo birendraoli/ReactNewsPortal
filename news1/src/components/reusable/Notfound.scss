@@ -1,0 +1,13 @@
+.not-found {
+    height: 55vh;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-size: 3rem;
+        font-weight: 700;
+        color: red;
+    }
+}

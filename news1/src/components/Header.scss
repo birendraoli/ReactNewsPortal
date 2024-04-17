@@ -11,8 +11,10 @@
         display: flex;
         justify-content: start;
         align-items: center;
-        img {
-            width: 100%;
+        a {
+            img {
+                width: 100%;
+            }
         }
     }
     .header-ad {
@@ -20,8 +22,10 @@
         display: flex;
         justify-content: end;
         align-items: center;
-        img {
-            width: 100%;
+        a{
+            img {
+                width: 100%;
+            }
         }
     }
 }

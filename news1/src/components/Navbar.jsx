@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.scss'
 import { GiHamburgerMenu } from "react-icons/gi";
 import logo from './logo.png'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const navitems = [
@@ -78,7 +79,7 @@ const Navbar = () => {
                 <div className='nav-items'>
                     {/* <a href=""><FaHome className='home-icon'/></a> */}
                     {navitems.map(({ name, link, drop }, index) => (
-                        <a className='nav-link' href={link}>{name}</a>
+                        <Link className='nav-link'key={index} to={link}>{name}</Link>
                     ))}
                 </div>
                 <div className="sticky-logo">

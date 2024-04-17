@@ -1,0 +1,164 @@
+.singlepage {
+    padding-top: 3rem;
+    width: 80vw;
+    margin: auto;
+}
+.sp-title-head {
+    align-items: center;
+    padding: 0.3rem 1.5rem;
+    background: linear-gradient(358deg, rgba(255,0,0,1) 22%, rgba(0,0,0,1) 54%, rgba(5,96,52,1) 95%);
+    color: white;
+    h1 {
+        text-align: center;
+    }
+}
+.sp-news-wrapper {
+    display: flex;
+    gap: 2rem;
+    .sp-news {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        .sp-f-news {
+            display: flex;
+            align-items: center;
+            .sp-feature-img{
+                width: 50%;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                max-height: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+            .sp-news-content {
+                width: 50%;
+                padding: 2rem;
+                .sp-title {
+                    font-size: 1.5rem;
+                    padding: 1rem;
+                }
+                .sp-details {
+                    padding: 1rem;
+                }
+            }
+        }
+        .sp-more-news {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            .sp-more-row {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                gap: 2rem;
+                .sp-col {
+                    width: 50%;
+                    display: flex;
+                    gap: 1.5rem;
+                    img {
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+    .sp-news-side-ad {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .sp-title-head {
+    }
+    .sp-news-wrapper {
+        .sp-news {
+            width: 66.66%;
+            .sp-f-news {
+                flex-direction: column;
+                .sp-feature-img{
+                    width: 100%;
+                    img {
+                    }
+                }
+                .sp-news-content {
+                    width: 100%;
+                    padding: 0;
+                    .sp-title {
+                    }
+                    .sp-details {
+                    }
+                }
+            }
+            .sp-more-news {
+                .sp-more-row {
+                    flex-direction: column;
+                    .sp-col {
+                        width: 140%;
+                        display: flex;
+                        gap: 1.5rem;
+                        img {
+                            width: 30%;
+                        }
+                    }
+                }
+            }
+        }
+        .sp-news-side-ad {
+            width: 33.33%;
+            img {
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .sp-news-wrapper {
+        flex-direction: column;
+        .sp-news {
+            width: 100%;
+            .sp-f-news {
+                flex-direction: column;
+                .sp-feature-img{
+                    width: 100%;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .sp-news-content {
+                    width: 100%;
+                    padding: 0;
+                    .sp-title {
+                    }
+                    .sp-details {
+                    }
+                }
+            }
+            .sp-more-news {
+                flex-direction: column;
+                .sp-more-row {
+                    width: 100%;
+                    flex-direction: column;
+                    .sp-col {
+                        width: 100%;
+                        img {
+                        }
+                    }
+                }
+            }
+        }
+        .sp-news-side-ad {
+            width: 100%;
+            img {
+            }
+        }
+    }
+}
